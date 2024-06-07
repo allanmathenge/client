@@ -93,7 +93,7 @@ const Navbar = () => {
                                 p: "0.25rem 1rem",
                                 "& .MuiSvgIcon-root": {
                                     pr: "0.25rem",
-                                    width: "3rem"
+                                    width: "3rem",
                                 },
                                 "& .MuiSelect-select:focus": {
                                     backgroundColor: neutralLight
@@ -105,10 +105,10 @@ const Navbar = () => {
                                 <Typography>
                                     {fullName}
                                 </Typography>
-                                <MenuItem onClick={() => dispatch(setLogout())} >
-                                    Log out
-                                </MenuItem>
                             </MenuItem >
+                            <MenuItem onClick={() => dispatch(setLogout())} >
+                                Log out
+                            </MenuItem>
                         </Select>
                     </FormControl>
                 </FlexBetween>
@@ -177,10 +177,10 @@ const Navbar = () => {
                                 <Typography>
                                     {fullName}
                                 </Typography>
-                                <MenuItem onClick={() => dispatch(setLogout())} >
-                                    Log out
-                                </MenuItem>
                             </MenuItem >
+                            <MenuItem onClick={() => dispatch(setLogout())} >
+                                Log out
+                            </MenuItem>
                         </Select>
                     </FormControl>
                 </FlexBetween>
